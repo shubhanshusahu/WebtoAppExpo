@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Playmersiv",
-    "slug": "Playmersiv",
+    "name": "sgsilat",
+    "slug": "sgsilat",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "orientation": "default",
+    "icon": "./assets/silatlogo.jpeg",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/silatlogo.jpeg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,16 +17,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shubhanshusahu.sgsilat"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/silatlogo.jpeg",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.shubhanshusahu.sgsilat"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/silatlogo.jpeg"
     }
   }
 }
